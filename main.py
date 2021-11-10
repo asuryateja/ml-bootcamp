@@ -2,6 +2,6 @@ import math
 no=int(input())
 root=math.sqrt(no)
 if int(root+0.5)**2==no:
-    print(no,'is perfect number')
+    print(no,'It is a  perfect number')
 else:
-    print(no,'not a perfect number')
+    print(no,'It is not a perfect number')
