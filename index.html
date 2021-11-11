@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Flask Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body style='background-color:black;'>
+    <h1 style="color:white; background-color:black;  text-align:center; margin:10px; padding-top:30px; font-family: 'Syne Mono', monospace;">Salary prediction using Linear Regression</h1>
+    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_xml2w3lx.json"  background="#000000"  speed="1"  style="width: 300px; height: 300px; justify-content:center; margin: 0 auto; align-items:center;"  loop  autoplay></lottie-player>
+    <form action="/predict" method="POST" style=" text-align:center; margin:0px; ">
+        <h2><label style="color:white; font-family: 'Syne Mono', monospace; margin-bottom: 15px;">Enter years of Experience</label></h2>
+        <input style="outline: none;" type="text" name="exp" /> <br/> <br/>
+        <input style="font-family: 'Syne Mono', monospace;"  type="submit" value="Predict ✔️" /> 
+    </form>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
+  </body>
+</html>
