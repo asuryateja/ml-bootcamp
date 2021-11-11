@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>ML Bootcamp (Day-4)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body style='background-color:black;'>
+    <h1 style="color:white; background-color:black;  text-align:center; margin:10px; padding-top:30px;font-family: 'Source Sans Pro', sans-serif;">Price prediction using Linear Regression</h1>
+    <lottie-player src="https://assets3.lottiefiles.com/temp/lf20_3bpCnZ.json"  background="#000000"  speed="1"  style="width: 300px; height: 300px; justify-content:center; margin: 0 auto; align-items:center;"  loop  autoplay></lottie-player>
+    <form action="/predict" method="POST" style="text-align:center;  margin:0px; ">
+      <label style="padding:px; color:white; text-align:center; font-family: 'Source Sans Pro', sans-serif;" for="rd">R&d Spend: </label>
+      <input style="padding:px; text-align:center; outline: none; border-radius:5px; " id="rd" type="text" name="rad" /><br />
+      <label style="padding:px; color:white; text-align:center; font-family: 'Source Sans Pro', sans-serif;" for="ad">Administration: </label>
+      <input style= "padding:px;  text-align:center; outline: none; border-radius:5px; " id="ad" type="text" name="admin" /><br />
+      <label style="padding:px; color:white; font-family: 'Source Sans Pro', sans-serif;" for="ms">Marketing Spend: </label>
+      <input style="padding:px; text-align:center; outline: none; border-radius:5px; " id="ms" type="text" name="mar" /><br />
+    <div style="">
+    <input  type="radio" id="child" name="City" value="New York">
+    <label style="color:white; font-family: 'Source Sans Pro', sans-serif; " for="child">New York</label><br>
+    <input type="radio" id="adult" name="City" value="California">
+    <label style="color:white; font-family: 'Source Sans Pro', sans-serif; " for="adult">California</label><br>
+    <input type="radio" id="senior" name="City" value="Florida">
+    <label style="color:white; font-family: 'Source Sans Pro', sans-serif; " for="senior">Florida</label>
+    </div>
+    <input style="font-family: 'Syne Mono', monospace; text-align:center;"  type="submit" value="Predict ✔️" /> 
+
+    </form>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    
+  </body>
+</html>
